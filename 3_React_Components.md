@@ -182,4 +182,4 @@ ReactDOM.render(
 ```
 ReactDOM.render()скажет <MyComponentClass />вызвать его метод рендеринга.
 
-<MyComponentClass />вызовет его метод рендеринга, который вернет элемент JSX <h1>Hello world</h1>. ReactDOM.render()затем возьмет полученный результирующий элемент JSX и добавит его в виртуальный DOM. Это заставит «Hello world» появиться на экране.
+<MyComponentClass />вызовет его метод рендеринга, который вернет элемент JSX h1 Hello world /h1. ReactDOM.render()затем возьмет полученный результирующий элемент JSX и добавит его в виртуальный DOM. Это заставит «Hello world» появиться на экране.
