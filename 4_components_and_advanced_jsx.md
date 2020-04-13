@@ -70,3 +70,19 @@ ReactDOM.render(
   document.getElementById('app')
 )
 ```
+## Put Logic in a Render Function
+render()Функция должна иметь returnзаявление. Однако это еще не все .
+
+render()Функция также может быть прекрасным местом для размещения простых вычислений , которые должны произойти прямо перед тем, как компонент делает. Вот пример некоторых вычислений внутри renderфункции:
+```
+class Random extends React.Component {
+  render() {
+    // First, some logic that must happen
+    // before rendering:
+    const n = Math.floor(Math.random() * 10 + 1);
+    // Next, a return statement
+    // using that logic:
+    return <h1>The number is {n}!</h1>;
+  }
+}
+```
