@@ -30,4 +30,13 @@ ReactDOM.render(
 );
 ```
 
-
+## Используйте атрибут переменной в компоненте
+Взгляните на этот объект JavaScript с именем redPanda:
+```
+const redPanda = {
+  src:  'https://upload.wikimedia.org/wikipedia/commons/b/b2/Endangered_Red_Panda.jpg',
+  alt: 'Red Panda',
+  width:  '200px
+};
+```
+Вы можете и часто будете вставлять JavaScript в JSX внутри функции рендеринга.
